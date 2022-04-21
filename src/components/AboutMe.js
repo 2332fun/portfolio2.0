@@ -6,7 +6,7 @@ import '../index.css';
 function AboutMe() {
     return (
         // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
-        <section className="my-5">
+        <section>
             <h1 id="aboutMe">About Me</h1>
             {/* Recent photo and short bio */}
             <img

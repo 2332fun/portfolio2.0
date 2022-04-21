@@ -4,9 +4,9 @@ import '../index.css';
 
 function Resume() {
     return (
-        <section className="my-5">
+        <section>
             <h1 id="resume">Resume</h1>
-            <div className="my-5" id="skillset">
+            <div id="skillset">
                 <ul>
                     <li>HTML / CSS / Javascript</li>
                     <li>Git</li>

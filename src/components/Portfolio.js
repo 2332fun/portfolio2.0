@@ -7,11 +7,10 @@ import puppyImg from "../assets/images/Puppy-Love.png";
 import socialImg from "../assets/images/Socially-NoSQL.png";
 import workImg from "../assets/images/WorkDayScheduler.png";
 import groupImg from "../assets/images/groupProject.png";
-import Footer from "./Footer";
 
 function Portfolio (props) {
     return (
-        <section className="my-5">
+        <section>
             <h1 id="portfolio">
                 Portfolio Message Placeholder
             </h1>
@@ -69,7 +68,6 @@ function Portfolio (props) {
                     />
                 </div>
             </div>
-            <Footer />
         </section>
     );
 }
