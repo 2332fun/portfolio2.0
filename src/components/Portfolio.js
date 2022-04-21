@@ -7,6 +7,7 @@ import puppyImg from "../assets/images/Puppy-Love.png";
 import socialImg from "../assets/images/Socially-NoSQL.png";
 import workImg from "../assets/images/WorkDayScheduler.png";
 import groupImg from "../assets/images/groupProject.png";
+import Footer from "./Footer";
 
 function Portfolio (props) {
     return (
@@ -68,8 +69,9 @@ function Portfolio (props) {
                     />
                 </div>
             </div>
+            <Footer />
         </section>
-    )
+    );
 }
 
 export default Portfolio;
