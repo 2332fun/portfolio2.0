@@ -10,7 +10,6 @@ function AboutMe() {
             <h1 id="aboutMe">About Me</h1>
             {/* Recent photo and short bio */}
             <img
-                class="photo"
                 src={myImage}
                 className="photo"
                 style={{ width: "25" }}
