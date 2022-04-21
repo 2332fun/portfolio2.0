@@ -5,7 +5,6 @@ import trackImg from "../assets/images/EmployeeTrackDB.png";
 import musicImg from "../assets/images/music-dashboard.png";
 import puppyImg from "../assets/images/Puppy-Love.png";
 import socialImg from "../assets/images/Socially-NoSQL.png";
-import workImg from "../assets/images/WorkDayScheduler.png";
 import groupImg from "../assets/images/groupProject.png";
 
 function Portfolio (props) {
@@ -38,7 +37,8 @@ function Portfolio (props) {
                         image={musicImg}
                         href="https://github.com/mtornabene05/music-dashboard"
                     />
-
+                </div>
+                <div className="SplitPane-Right">
                     {/* Weather API Challenge */}
                     <Project
                         title="CityWeather"
@@ -58,13 +58,6 @@ function Portfolio (props) {
                         title="Socially-NoSQL"
                         image={socialImg}
                         href="https://github.com/2332fun/Socially-NoSQL"
-                    />
-
-                    {/* Work Day Scheduler Challenge */}
-                    <Project
-                        title="WorkDayScheduler"
-                        image={workImg}
-                        href="https://github.com/2332fun/WorkDayScheduler"
                     />
                 </div>
             </div>
