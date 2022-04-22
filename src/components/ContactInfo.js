@@ -34,7 +34,7 @@ function ContactInfo() {
 
     return (
         <section>
-            <h1 id="contact">Contact Me</h1>
+            <h1 id="contactInfo">Contact Me</h1>
             <form id="contactForm" onSubmit={handleSubmit}>
                 <div className="fields">
                     <label htmlFor="name">Name: </label>

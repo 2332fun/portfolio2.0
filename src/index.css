@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #928d8d;
-  --secondary-color: #0a3247;
-  --tertiary-color: #2f2d8f;
-  --light: #fafafa;
+  --primary-color: #7c7a7a;
+  --secondary-color: #bd8b9c;
+  --tertiary-color: #321325;
+  --light: #7c7a7a;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
@@ -96,13 +96,13 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: rgb(128, 174, 223);
+  color: rgb(236, 206, 142);
 }
 
 header {
   font-weight: 100;
   font-size: 25px;
-  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
+  background: linear-gradient(to right, rgb(50, 19, 37), rgb(189, 139, 156));
   padding: 0.5rem;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   justify-content: space-between;
@@ -149,14 +149,15 @@ button[disabled] {
   opacity: 0.8;
 }
 
-#about,
+#aboutMe,
 #resume,
-#contact,
+#contactInfo,
 #portfolio {
   text-align: left;
   padding-left: 65px;
   background-color: #cdc2c2;
   background-position-x: 100%;
+  margin: 0px;
 }
 
 #contact-form {
@@ -164,6 +165,7 @@ button[disabled] {
 }
 #summary {
   height: 375px;
+  padding-right: 50%;
 }
 
 #skillset {
@@ -289,7 +291,7 @@ footer {
   font-weight: 100;
   font-size: 30px;
   font-style: italic;
-  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
+  background: linear-gradient(to right, rgb(50, 19, 37), rgb(189, 139, 156));
   align-items: center;
   padding: 0.5rem;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -424,4 +426,11 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+#aboutMeP {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 2%;
 }
