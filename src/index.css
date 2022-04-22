@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #7c7a7a;
+  --primary-color: #628395;
   --secondary-color: #bd8b9c;
   --tertiary-color: #321325;
-  --light: #7c7a7a;
+  --light: #628395;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
@@ -53,16 +53,19 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 4.25rem;
   padding: 25px;
+  font-family: 'Dancing Script', cursive;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 5.25rem;
   font-weight: bolder;
   text-align: center;
   color: var(--primary-color);
   margin: 0px;
+  padding: 1%;
+  font-family: 'Lobster', cursive;
 }
 
 h3 {
@@ -102,8 +105,8 @@ a:hover {
 header {
   font-weight: 100;
   font-size: 25px;
-  background: linear-gradient(to right, rgb(50, 19, 37), rgb(189, 139, 156));
-  padding: 0.5rem;
+  background: linear-gradient(to right, rgb(50, 19, 37), rgb(130, 74, 93));
+  padding: 0px;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   justify-content: space-between;
   margin: 0px;
@@ -158,6 +161,7 @@ button[disabled] {
   background-color: #cdc2c2;
   background-position-x: 100%;
   margin: 0px;
+  font-family: 'Dancing Script', cursive;
 }
 
 #contact-form {
@@ -174,13 +178,13 @@ button[disabled] {
 #skillset ul li {
   padding: 10px;
   font-size: 30px;
-  color: #676363;
+  color: black;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 #pdf {
   font-size: 30px;
-  color: #302e2e;
+  color: black;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -194,14 +198,7 @@ button[disabled] {
   margin-left: 50px;
 }
 img {
-  justify-content: center;
-  padding: 10px;
-  border: 2px solid;
-  border-color: rgb(109, 111, 114);
-  border-radius: 15px;
-  -webkit-box-shadow: 7px 7px 5px 0px  rgb(109, 111, 114);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  padding: 0px;
 }
 
 .projects {
@@ -220,7 +217,7 @@ img {
   height: 900px;
   padding: 50px;;
   font-size: 25px;
-  color: #3f3b3b;
+  color: black;
   margin-bottom: 100px;
 }
 
@@ -280,6 +277,12 @@ nav li {
   cursor: pointer;
 }
 
+.nav-link {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
 textarea {
   width: 600px;
   height: 120px;
@@ -291,7 +294,7 @@ footer {
   font-weight: 100;
   font-size: 30px;
   font-style: italic;
-  background: linear-gradient(to right, rgb(50, 19, 37), rgb(189, 139, 156));
+  background: linear-gradient(to right, rgb(50, 19, 37), rgb(130, 74, 93));
   align-items: center;
   padding: 0.5rem;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
