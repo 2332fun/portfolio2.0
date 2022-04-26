@@ -8,11 +8,11 @@ function Resume() {
             <h1 id="resume">Resume</h1>
             <div id="skillset">
                 <ul>
-                    <li>HTML / CSS / Javascript</li>
-                    <li>Git</li>
-                    <li>MERN Stack</li>
-                    <li>SQL / NoSQL</li>
-                    <li>Group Projects: Back End and Full Stack</li>
+                    <li>Frontend:</li>
+                        <p>Javascript, Jquery, HTML, CSS, Handlebars, React.</p>
+                    <li>Backend:</li>
+                        <p>Server-side API, ORM, MVC, MongoDB, Insomnia, REST, CRUD. </p>
+                    <li>Below is my downloadable resume!</li>
                 </ul>
             </div>
             <div>
