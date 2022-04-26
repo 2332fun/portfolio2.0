@@ -19,7 +19,8 @@ function AboutMe() {
                 />
                 <div className="my-2" id="summary">
                     <p>
-                        AboutMeParagraphPlaceholder
+                    I am a graduate from Case Western Reserve University coding bootcamp.
+                    Originally my goal was to obtain a bachelor's degree in Business (administration, preferably) and pursue a career in management. However, that has changed to desiring a position in the coding field. I am excited for the opportunities this will open up to me in the software development field! In CWRU, we have studied a broad range of both frontend and backend Javascript coding over the course of 6 months. I have mostly been enjoying the backend aspects (such as server-side API, MongoDB, and CRUD) with an understanding for frontend.
                     </p>
                 </div>
             </div>
