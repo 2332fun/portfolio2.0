@@ -19,9 +19,9 @@ function Portfolio (props) {
                 <div className="SplitPane-Left">
                     {/* Group Project NAMEPLACEHOLDER */}
                     <Project
-                        title="NAMEPLACEHOLDER"
+                        title="Great-Reads"
                         image={groupImg}
-                        href="https://github.com/cphill11/group-final-project"
+                        href="https://github.com/cphill11/great-reads"
                     />
 
                     {/* Group Project Puppy-Love */}
