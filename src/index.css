@@ -34,7 +34,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--tertiary);
   color: var(--darker);
-  font-family: "Helvetica, Arial, sans-serif";
+  font-family: 'Alegreya Sans', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica, Arial, sans-serif";
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 500;
   line-height: 1.25;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -170,16 +170,6 @@ button[disabled] {
 #summary {
   height: 375px;
   padding-right: 2%;
-}
-
-#skillset {
-  height: 600px;
-}
-#skillset ul li {
-  padding: 10px;
-  font-size: 30px;
-  color: black;
-  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 #pdf {
@@ -436,4 +426,22 @@ a {
   justify-content: space-between;
   align-items: stretch;
   padding-top: 2%;
+}
+
+#skillset {
+  height: 600px;
+}
+#skillset ul li {
+  padding: 2px;
+  font-size: 50px;
+  color: black;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 0px;
 }
