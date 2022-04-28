@@ -11,7 +11,7 @@ function Portfolio (props) {
     return (
         <section>
             <h1 id="portfolio">
-                Portfolio Message Placeholder
+                Portfolio
             </h1>
             <div className="SplitPane">
                 {" "}
