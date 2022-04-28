@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Portfolio2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+What: My motivation for this project was to make a React based Portfolio to display my resume, projects, and a way to contact me. My efforts allow the user to download my resume pdf, click images leading to my various coding projects, and send out a contact. The user can also follow links directly to my linkedIn and Github.
 
-In the project directory, you can run:
+* [Link to Webpage](https://2332fun.github.io/Portfolio2.0/)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
+* [Features](#features)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+React and npm start is required to use this. Follow the link listed under Usage below or in the Description above.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+* [Link to Webpage](https://2332fun.github.io/Portfolio2.0/)
+![Screenshot](/assets/images/screenshot.PNG "Screenshot")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Shields.io Link](https://shields.io/): Used to create My Shield found in Badges below.
+* [License Link](https://choosealicense.com/licenses/gpl-3.0/): Used to determine and copy the correct license for the project found in License below and the COPYING.txt file.
+* [Contributor Covenant Link](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md): Used to obtain a proper code of conduct for contribution found in Contributing below.
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax/): Used to setup the format of the README.md.
+* [MongoDB](https://www.mongodb.com/): Used for the database.
+* [Mongoose](https://www.npmjs.com/package/mongoose): Object modeling tool to work asynchronously.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+GNU General Public License v3.0
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Copyright (C) 2022 Diana Taylor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-## Learn More
+## Badges
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![My Shield](https://img.shields.io/badge/2332fun-2332fun%20contributed%20to%20this%20project.-blueviolet)](https://github.com/2332fun)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+The user is able to create, update, and delete users and thoughts in the database. The user is able to create and delete reactions to thoughts and add/remove friends from a user's friend list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+If you are interested in contributing to this project, please read the contributor covenant found at [Contributor Covenant Link](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md). Then email me at <mirachan2332@gmail.com> to further collaborate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tests
 
-### Making a Progressive Web App
+No test provided for this specific project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
