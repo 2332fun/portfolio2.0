@@ -452,7 +452,22 @@ p {
 @media only screen 
 and (max-width : 320px)
 {
-/* Add Your CSS Styling Here */
+  .photo {
+    margin: 0px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  header li a {
+    padding: 0px;
+  }
+  .SplitPane img {
+    height: 75px;
+    width: 100px;
+  }
 }
 
 /* Smartphones (landscape) */
@@ -460,7 +475,16 @@ and (max-width : 320px)
 and (min-width : 321px)
 and (max-width : 767px)
 {
-/* Add Your CSS Styling Here */
+  p {
+    font-size: 21px;
+  }
+  .nav-link {
+    font-size: 35px;
+  }
+  .SplitPane img {
+    height: 200px;
+    width: 300px;
+  }
 }
 
 /* Tablets (portrait) */
@@ -484,14 +508,13 @@ p {
 }
 }
 
-
 /* Tablets (landscape) */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape)
 {   
-/* Add Your CSS Styling Here */
+/* Uses default CSS Styling */
 }
 
 /* Old Desktops and laptops */
