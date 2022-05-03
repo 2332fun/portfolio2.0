@@ -4,7 +4,7 @@
 
 What: My motivation for this project was to make a React based Portfolio to display my resume, projects, and a way to contact me. My efforts allow the user to download my resume pdf, click images leading to my various coding projects, and send out a contact. The user can also follow links directly to my linkedIn and Github.
 
-* [Link to Webpage](https://2332fun.github.io/Portfolio2.0/)
+* [Link to Webpage](https://2332fun.github.io/portfolio2.0/)
 
 ## Table of Contents
 
